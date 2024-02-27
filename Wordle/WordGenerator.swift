@@ -12,7 +12,8 @@ class WordGenerator {
   // IMPORTANT: MAKE SURE ALL THE LETTERS IN THE NEW WORDS YOU ADD ARE CAPITALIZED (e.g. "AUDIO" instead of "audio")
   // Tip: Look at the Array API documentation to see what method returns a random element
   // Checkpoint: After finishing this exercise, you should now have a different goal word each time you run the app! Try printing out the selected goal word to check. If it's not working, check that you have done this exercise correctly.
-  static let possibleWords = ["ABCDE","CATCH","BLADE","SNAKE","TRADE"]
+  static let possibleWords = ["CATCH","BLADE","SNAKE","TRADE","APPLE", "BAKER", "CIDER", "DEMON", "ELBOW", "FLUTE", "GRAPE", "HAZEL", "ICIER", "JEWEL"]
+    
   static func generateRandomWord() -> String? {
     // START YOUR CODE HERE
     guard !possibleWords.isEmpty else { return nil }
